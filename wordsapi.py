@@ -18,7 +18,7 @@ margin-top:-5px;
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<p class="big-font">WordAPI Wizard</p>
+<p class="big-font">WordAPI Wizard 1.0</p>
 <b>WordsAPI includes synonyms, antonyms, similar words, hierarchical information and more!</b>
 <b>Directions: </b><br><ol>
 <li>Register for a free API key at <a href='https://rapidapi.com/auth/sign-up' target='_blank'>rapidapi.com</a> (2600 calls a month)</li>
