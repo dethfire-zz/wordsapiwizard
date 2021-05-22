@@ -23,7 +23,7 @@ st.markdown("""
 <b>Directions: </b><br><ol>
 <li>Register for a free API key at <a href='https://rapidapi.com/auth/sign-up' target='_blank'>rapidapi.com</a> (2600 calls a month)</li>
 <li>You will get different word analysis types depending on the word. Not all words will return a result for all APIs</li>
-<li>input a singular word into the field below</li>
+<li>Input a singular word into the field below</li>
 </ol>
 """, unsafe_allow_html=True)
 
@@ -443,3 +443,5 @@ if submit:
     rhymes(word,headers)
     examples(word,headers)
     synonyms(word,headers)
+	
+st.write('Author: [Greg Bernhardt](https://twitter.com/GregBernhardt4) | Friends: [Rocket Clicks](https://www.rocketclicks.com), [importSEM](https://importsem.com) and [Physics Forums](https://www.physicsforums.com)')
