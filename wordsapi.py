@@ -119,7 +119,7 @@ if submit:
       memberof_url = f'https://wordsapiv1.p.rapidapi.com/words/{word}/memberOf'
       response = requests.request("GET", memberof_url, headers=headers)
       memberof = json.loads(response.text)
-
+      print(memberof)
       st.markdown("""
       <h3>Member Of</h3>
       <b>A group to which the word belongs</b>
